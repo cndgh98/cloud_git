@@ -11,3 +11,13 @@
 untracked:git의 관리 대상이 아닌 상태 초기에 생성된 파일이 가지는 상태
 tracked:git의 관리 대상에 해당하는 상태로 스냅샷에 포함된 파일과 add 명령으로
 새로 추가한 파일이 가지는 상태
+
+작업 전
+git checkout [자기 브랜치]
+git pull origin main <= main에 있는거 갖고 오기
+수정하기....
+
+작업 후
+git add, commit
+git push origin [자기 브랜치]
+github 페이지 가서 pull request 해서 main으로 merge하기
